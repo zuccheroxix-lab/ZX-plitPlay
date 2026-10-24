@@ -112,7 +112,7 @@ class FloatingControlService : Service() {
             Notification.Builder(this, channelId)
                 .setContentTitle("ZX SplitPlay Aktif")
                 .setContentText("Panel kontrol mengambang siap digunakan.")
-                .setSmallIcon(R.mipmap.ic_launcher)
+                .setSmallIcon(R.drawable.ic_launcher_asset)
                 .setContentIntent(pendingIntent)
                 .build()
         } else {
@@ -120,7 +120,7 @@ class FloatingControlService : Service() {
             Notification.Builder(this)
                 .setContentTitle("ZX SplitPlay Aktif")
                 .setContentText("Panel kontrol mengambang siap digunakan.")
-                .setSmallIcon(R.mipmap.ic_launcher)
+                .setSmallIcon(R.drawable.ic_launcher_asset)
                 .setContentIntent(pendingIntent)
                 .build()
         }
@@ -156,7 +156,7 @@ class FloatingControlService : Service() {
         }
 
         val bubbleIcon = ImageView(this).apply {
-            setImageResource(R.mipmap.ic_launcher)
+            setImageResource(R.drawable.ic_launcher_asset)
             setPadding(dpToPx(6), dpToPx(6), dpToPx(6), dpToPx(6))
         }
         bubbleFrame.addView(bubbleIcon)

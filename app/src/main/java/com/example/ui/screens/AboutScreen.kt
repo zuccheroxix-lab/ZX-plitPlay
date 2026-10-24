@@ -89,7 +89,7 @@ fun AboutScreen(
                         horizontalAlignment = Alignment.CenterHorizontally
                     ) {
                         Image(
-                            painter = painterResource(id = R.mipmap.ic_launcher),
+                            painter = painterResource(id = R.drawable.ic_launcher_asset),
                             contentDescription = "Logo ZX SplitPlay",
                             modifier = Modifier
                                 .size(72.dp)

@@ -72,7 +72,7 @@ fun MainScreen(viewModel: MainViewModel) {
                     title = {
                         Row(verticalAlignment = Alignment.CenterVertically) {
                             Image(
-                                painter = painterResource(id = R.mipmap.ic_launcher),
+                                painter = painterResource(id = R.drawable.ic_launcher_asset),
                                 contentDescription = null,
                                 modifier = Modifier
                                     .size(32.dp)
