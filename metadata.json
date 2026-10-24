@@ -1,0 +1,6 @@
+{
+  "name": "ZX SplitPlay",
+  "description": "Android gaming utility & split-screen assistant with floating control panel by ZUCCHERO XANN.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

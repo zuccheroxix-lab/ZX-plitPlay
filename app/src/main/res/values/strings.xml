@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">ZX SplitPlay</string>
+    <string name="app_tagline">Gaming Utility &amp; Split-Screen Assistant</string>
+    <string name="developer_name">ZUCCHERO XANN</string>
+    <string name="version_name">v1.0.0</string>
+    
+    <!-- Navigation Tabs -->
+    <string name="tab_dashboard">Dashboard</string>
+    <string name="tab_compatibility">Kompatibilitas</string>
+    <string name="tab_assistant">Assistant</string>
+    <string name="tab_floating">Floating Panel</string>
+    <string name="tab_settings">Pengaturan</string>
+    
+    <!-- Dashboard -->
+    <string name="card_game_title">Game Utama</string>
+    <string name="card_second_app_title">Aplikasi Kedua</string>
+    <string name="card_empty_game">Pilih Game</string>
+    <string name="card_empty_second_app">Pilih Aplikasi Kedua</string>
+    <string name="btn_launch_split">Luncurkan Split-Screen</string>
+    <string name="btn_toggle_floating">Buka Floating Panel</string>
+    <string name="btn_stop_floating">Tutup Floating Panel</string>
+    
+    <!-- Status -->
+    <string name="status_supported">Didukung</string>
+    <string name="status_supported_with_limits">Didukung dengan Batasan</string>
+    <string name="status_permission_required">Memerlukan Izin</string>
+    <string name="status_not_supported">Tidak Didukung</string>
+    <string name="status_unverified">Belum Dapat Diverifikasi</string>
+</resources>
